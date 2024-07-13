@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bi-app-indicator
+        {
+            fill: aliceblue;
+        }
+        .bi-code-slash
+        {
+            fill: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="logo_responsive.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#My-Projects" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="openmenu()"></i>
+            </nav>
+
+        </div>
+        <div class="header_text">
+            Front-end <br>web developer
+            <h1><p>Hi!! I'm <span>Shubham</span> <br>from India </p></h1>    
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="left_col">
+                <img src="profile_img_portfolio.png" >
+            </div>
+            <div class="right_col">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am Studying in SIT Lonavala affiliated by SPPU pursuing E&TC Engineering but my passion lies in computer science,</p>        
+                
+
+                <p> That’s why I have inculcated hard skills in programming along with my curriculum like: </p>
+                    
+                        <p>   <br>✅ DSA 
+                               ✅ C 
+                               ✅ C+ 
+                               ✅ Python
+                        </p> 
+                    
+                <p>    <br> I am Proficient in : </p>
+                    
+                <p><br> ✅ HTML
+                        ✅ CSS 
+                        ✅JavaScript 
+                        ✅ React 
+                </p>  
+                <p><br>At the same time I have developed some interpersonal skills working in internships ie:</p>
+                    
+                <br>   ✅ Communication skills. 
+                <br>   ✅ Convincing skills. 
+                <br>   ✅ Decision making skills.
+                <br>   ✅ Problem solving skills.
+                <p>  
+                  <br> I aspire to work as a Full stack developer and UI UX Designer in the coming 2-3 years
+                </p>
+                <div class="tab-title">
+                    <div class="tab-links active-link" onclick="opentab('skill')">Skills </div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experiences</div>
+                
+                </div>
+                <div class="tab-content active-tab" id="skill">
+                    <ul>
+                        <li><span><strong>WEB DEVELOPMENT</strong></span><br>Languages and Tools - Html,CSS,JavaScript,React,Bootstrap</li>
+                        <li><span><strong>APP DEVELOPMENT</strong></span><br>Languages and Tools - Java,Kotlin,Android Studio</li>
+                        <li><span><strong>UX/UI DESIGN</strong></span><br>Web/App Interfaces - Figma</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><strong><span>PRESENT</span></strong><br>BE from Sinhgad Institue of technology</li>
+                        <li><strong><span>2021</span></strong><br>HSC from Mishras residential public school</li>
+                        <li><strong><span>2019</span></strong><br>SSC from DAV public School</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span><strong>2023-PRESENT</strong></span><br>UX/UI & front-End freelancer</li>
+                        <li><span><strong>2022-2023</strong></span><br>UX/UI freelancer</li>
+                        <li><span><strong>2021-2022</strong></span><br>Personal Tutor</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- --------------------services------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="service-list">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                        <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6"/>
+                      </svg>
+                    <h2>Web Design</h2>
+                    <p>We design and build straightforward, professional websites that are easy to navigate 
+                        and responsive across all devices. Our service includes a custom design, essential SEO 
+                        setup, and basic content management training to help you manage your site with ease.
+                        
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-crop" viewBox="0 0 16 16">
+                        <path d="M3.5.5A.5.5 0 0 1 4 1v13h13a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2H3.5a.5.5 0 0 1-.5-.5V4H1a.5.5 0 0 1 0-1h2V1a.5.5 0 0 1 .5-.5m2.5 3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4H6.5a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                    <h2>UX/UI Design</h2>
+                    <p> We create intuitive and visually appealing interfaces that ensure a seamless interaction 
+                         for your users. Our service includes user research, wireframing, and basic prototyping to
+                         design engaging and user-friendly digital products.
+                       
+                    </p>
+                    <a href="https://www.geeksforgeeks.org/how-to-become-a-ui-ux-designer-a-complete-roadmap/">Learn more</a>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+                        <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1z"/>
+                        <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                      </svg>
+                    <h2>App Development</h2>
+                    <p>We build simple, functional mobile applications tailored to your needs, focusing on intuitive
+                         user interfaces and smooth performance. Our service includes initial design, development, and
+                          basic testing to ensure your app works seamlessly across devices.
+                      
+                    </p>
+                    <a href="https://www.geeksforgeeks.org/what-is-mobile-app-development-process/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------My Projects----------------- -->
+    <div id="My-Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="Project-list">
+               <div class="Projects">
+                <img src="project1.jpg">
+                <div class="layer">
+                    <h3>Drum kit </h3>
+                    <p>The Drumm kit allows you to  play different drum instrument and make your own music.</p>
+                    <a href="https://themiddleclassmonk.github.io/Drum-kit/"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #FBA834;"></i></a>
+                </div>
+               </div>
+               <div class="Projects">
+                <img src="project5.png">
+                <div class="layer">
+                    <h3>Text utilities Web App</h3>
+                    <p>The textutiles provide you option to edit your given text in your desired ways. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #FBA834;"></i></a>
+                </div>
+               </div>
+            </div><div >
+                <a href="#" class="btn">See More </a>
+            </div>
+            
+        </div>
+    </div>
+    <!-- --------------------------- Contact   ------------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" > Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>  shubham1582003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>     +91 7479947585</p>
+                    <div class="social-icons">
+                       <h2><a href="https://github.com/Themiddleclassmonk"><i class="fa-brands fa-github"></i></a>
+                       <a href="https://www.instagram.com/shubham_kumar_22_26/"><i class="fa-brands fa-instagram";></i></a>
+                       <a href="https://www.linkedin.com/in/shubham-kumar-06a892268/?trk=opento_sprofile_details"><i class="fa-brands fa-linkedin";></i></a>
+                       <a href="https://x.com/shubham66959648"><i class="fa-brands fa-square-x-twitter";></i></a>
+                       </h2>
+                    </div>
+                    <a href="CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="email" name="Email" placeholder="Your Email" required >
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button class="btn btn2" type="submit">Submit</button>
+                   
+                 </form>
+                 <span id="msg"></span>
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+    <!-- copyright -->
+    <div id="copyright">
+        <p>Copyright @Shubham ❤️ </p>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/233c77c65e.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/233c77c65e.js" crossorigin="anonymous"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxcsAqGSe7ntqt0hNT0RqxpxjIvilmerdNG0XMT41QSwH_0axQfOT7hZZp0g7vdEQJNiw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{msg.innerHTML="Message recieved succesfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html> 
